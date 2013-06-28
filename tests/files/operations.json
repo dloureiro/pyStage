@@ -1,0 +1,32 @@
+{
+    "source_root":"/tmp/test-sf",
+    "destination_root":"/tmp/skl",
+    "operations":[
+        {
+            "src":"configuration.json",
+            "dest":".",
+            "message":"copying default configuration file"
+        },
+        {
+            "src":"*.bat",
+            "dest":"."
+        },
+        {
+            "src":"*.ref",
+            "dest":"."
+        },
+        {
+            "src":"desssss",
+            "dest":"dez"
+        },
+        {
+            "src":"common",
+            "dest":"."
+        },
+        {
+            "src":"common",
+            "dest":"un/chemin/bien/long"
+        }
+
+    ]
+}
